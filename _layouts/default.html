@@ -25,25 +25,29 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Leonid Keselman
+                Alperen Tercan
               </h1>
-              <p>I am a PhD student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a>, part of the <a href="https://www.scs.cmu.edu/">School of Computer Science</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, where I work on 3D computer vision. My PhD advisor is <a href="http://www.cs.cmu.edu/~hebert/">Martial Hebert</a>.
+              <p>Hello there! I am a Computer Science Master's student at Colorado State University, where I work on Reinforcement Learning and Formal Methods under the supervision of
+                Prof. Vinayak Prabhu and Prof. Chuck Anderson. Currently, I am a research intern at Max Planck Institute for Software Systems in Dr. Adish Singla's Machine Teaching group.
               </p>
               <p>
-                From 2011 to 2017, I worked at <a href="https://www.intel.com">Intel</a>, as part of <a href="https://www.intelrealsense.com/">Intel RealSense</a>. I primarily designed computer vision algorithms for efficient hardware ASICs, including the Intel RealSense <a href="https://software.intel.com/en-us/articles/realsense-r200-camera">R200</a> and <a href="https://software.intel.com/en-us/realsense/d400">D400</a> RGB-D sensors. Additionally, I worked on <a href="https://github.com/IntelRealSense/librealsense">software APIs</a>, <a href="https://patents.google.com/patent/US9992474B2">active illumination systems</a>, <a href="https://patents.google.com/patent/US9304597">human-computer interaction devices</a>, and helped develop demos for trade shows, including CES 2012-2016.
+                I am interested in Reinforcement Learning(RL), both in terms of developing new algorithms as well as applying these algorithms for challenging real-world applications.
+                In my research, I focus on bridging this gap by reducing the number of samples needed totrain an RL model and simplifying application of RL to different tasks by allowing more
+                user-friendly task specifications. I have developed algorithms and techniques that can be used to increase sampleefficiency of RL in program synthesis and control.
+                Moreover, I worked on allowing more intuitive specifications when describing user preferences over multiple objectives.
               </p>
               <p>
-                I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
+                Previously, I graduated with a B.S in Electrical and Electronics Engineering from Bilkent University, Turkey.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/leonidk">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/lkeselman"> LinkedIn </a>
+                <a href="mailto:alperentercan06@gmail.com"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/alperentercan/">GitHub</a> &nbsp;/&nbsp;
+<!--                 <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp; -->
+                <a href="https://www.linkedin.com/in/alperentercan/"> LinkedIn </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/alperentercan_pp.jpg">
             </td>
           </tr>
         </table>
@@ -53,7 +57,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
+                I'm interested in Reinforcement Learning.
               </p>
             </td>
           </tr>
@@ -75,8 +79,8 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              {% if post.link %}
+              <a href="{{post.link}}">link</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -98,81 +102,11 @@
           {% endfor %}
           {% endfor %}
         </table>
-        <br>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Intel Projects</h2>
-              <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly disclosed work
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
+              <p> These include coursework and side projects. 
               </p>
             </td>
           </tr>
@@ -181,7 +115,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
+          {% if cat == 'projects' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
