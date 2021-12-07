@@ -5,11 +5,8 @@ date:   2020-12-01 22:21:59 +00:00
 image: /images/ngac.png
 categories: research
 author: "Alperen Tercan"
-<!-- authors: "<strong>Alperen Tercan</strong>, Charles W. Anderson " -->
 venue: "In Preparation"
 link: /pdfs/ngac.pdf
-<!-- slides: /pdfs/ijcnn2021_slides.pdf -->
-<!-- code: https://github.com/alperentercan/rl-transfer-learning-ijcnn2021 -->
 ---
 Many real-world problems require flexible, scalable,
 and fine-grained access control policies. Next Generation Access
