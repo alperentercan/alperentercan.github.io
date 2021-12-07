@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Reinforcement Learning for Combinatorial Optimization over Graphs"
+date:   2020-12-01 22:21:59 +00:00
+image: /images/rl4graphs.png
+categories: project
+author: "Alperen Tercan"
+link: /pdfs/Graphs_via_RL_CPS_Presentation.pdf
+slides: /pdfs/RLforGraphs_ProjectReport.pdf
+---
+In this project, the use of reinforcement learning for heuristics in graph algorithms is
+investigated. This line of research can be seen as an extension of general trend in computer
+science research to replace rule-based, hand-crafted heuristics with data-driven methods. The
+project focus was identifying possible future research directions rather than a comprehensive
+survey of the field.
+
+Although the project was done primarily for educational purposes, it contributes to
+the field with a more mathematically rigorous and RL-oriented analysis. Mainly, we formulate the underlying MDP that papers implicitly assume. This is important for fruitful and mathematically-sound discussions and research for further use of RL in combinatorial
+optimization problems over graphs. Also, the report provides a unified analysis of two papers
+using the formulated framework; which proves to be useful for juxtaposition of two papers.
