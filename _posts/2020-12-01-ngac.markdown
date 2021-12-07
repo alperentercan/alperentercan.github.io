@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Provable Stateful Next Generation Access Control for Complex Dynamic Systems"
+date:   2020-12-01 22:21:59 +00:00
+image: /images/ngac.png
+categories: research
+author: "Alperen Tercan"
+<!-- authors: "<strong>Alperen Tercan</strong>, Charles W. Anderson " -->
+venue: "In Preparation"
+link: /pdfs/ngac.pdf
+<!-- slides: /pdfs/ijcnn2021_slides.pdf -->
+<!-- code: https://github.com/alperentercan/rl-transfer-learning-ijcnn2021 -->
+---
+Many real-world problems require flexible, scalable,
+and fine-grained access control policies. Next Generation Access
+Control(NGAC) framework inherits these traits from Attribute
+Based Access Control(ABAC) and provides an intuitive graphbased
+approach. In this work, we augment NGAC framework with
+multi-level rule hierarchy and stateful policies. Then, we show how
+an NGAC policy can be analyzed together with an environment
+model using Alloy. This allows defining complex dynamic systems
+and keeping policies still tractable for automated analysis. We
+present our approach on emergency fire response problem.
