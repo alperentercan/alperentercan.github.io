@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reinforcement Learning for Combinatorial Optimization over Graphs"
-date:   2020-12-01 22:21:59 +00:00
+date:   2020-05-01 22:21:59 +00:00
 image: /images/rl4graphs.png
 categories: project
 author: "Alperen Tercan"
