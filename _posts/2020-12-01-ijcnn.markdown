@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Increased Reinforcement Learning Performance through Transfer of Representation Learned by State Prediction Model"
+date:   2020-12-01 22:21:59 +00:00
+image: /images/ijcnn2021.png
+categories: research
+author: "Alperen Tercan"
+authors: "<strong>Alperen Tercan</strong>, "
+venue: "2021 International Joint Conference on Neural Networks (IJCNN)"
+link: https://ieeexplore.ieee.org/document/9533751
+slides: /pdfs/ijcnn2021_slides.pdf
+code: https://github.com/alperentercan/rl-transfer-learning-ijcnn2021
+---
+We propose using state change predictions as an unbiased and non-sparse supplement for TD-targets. By training a forward model which shares a Q-network's initial layers, we allow transfer learning from model dynamics prediction to Q value function approximation. We discuss two variants, one doing this only in the initial steps of the training and another one using it throughout the training process. Both variants can be used as enhancements to state-of-the-art RL algorithms. 
