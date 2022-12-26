@@ -12,7 +12,7 @@ code: https://github.com/alperentercan/alloy4ngac
 Many real-world problems require flexible, scalable,
 and fine-grained access control policies. Next Generation Access
 Control(NGAC) framework inherits these traits from Attribute
-Based Access Control(ABAC) and provides an intuitive graphbased
+Based Access Control(ABAC) and provides an intuitive graph-based
 approach. In this work, we augment NGAC framework with
 multi-level rule hierarchy and stateful policies. Then, we show how
 an NGAC policy can be analyzed together with an environment
