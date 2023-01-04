@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "Multiobjective Control with Thresholded Lexicographic Preferences using Reinforcement Learning"
+title:  "Thresholded Lexicographic Ordered Multi-Objective Reinforcement Learning"
 date:   2022-08-01 22:21:59 +00:00
 image: /images/tlq.png
 categories: research
 author: "Alperen Tercan"
 authors: "<strong>Alperen Tercan</strong>, Vinayak Prabhu"
 venue: "Under review"
+link: /pdfs/6443_thresholded_lexicographic_orde.pdf
+
+
 ---
-Our work on solving multi-objective control tasks with lexicographic preferences and {temporal logic-based reward specifications} required me to combine my knowledge and expertise in optimization, RL, and formal methods. In this work, I've developed a taxonomy of control tasks with thresholded lexicographic objectives and used it to show how the current RL approaches fail in certain settings. Then, I proposed and tested several techniques that can solve these issues.
+Our work on solving multi-objective control tasks with lexicographic preferences and {temporal logic-based reward specifications} required me to combine my knowledge and expertise in optimization, RL, and formal methods. In this work, I've developed a taxonomy of control tasks with thresholded lexicographic objectives and used it to show how the current RL approaches fail in certain settings. Then, I discussed several fixes to current methods to improve their performance. Finally, I proposed and tested a novel policy gradient algorithm based on hypercone projections of the policy gradients.
