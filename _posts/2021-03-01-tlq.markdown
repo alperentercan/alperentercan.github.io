@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thresholded Lexicographic Ordered Multi-Objective Reinforcement Learning"
-date:   2022-08-01 22:21:59 +00:00
+date:   2022-10-01 22:21:59 +00:00
 image: /images/tlq.png
 categories: research
 author: "Alperen Tercan"
