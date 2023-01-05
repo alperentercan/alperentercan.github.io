@@ -4,7 +4,9 @@ title:  "Synthesizing a Progression of Subtasks for Block-Based Visual Programmi
 date:   2022-08-01 22:21:59 +00:00
 image: /images/task_decomp_logo.png
 categories: research
-author: "Alperen Tercan et al."
+author: "Alperen Tercan"
+authors: "Alperen Tercan et al."
+venue: "Under review"
 link: /pdfs/682_synthesizing_a_progression_of_.pdf
 ---
 
