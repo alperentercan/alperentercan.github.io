@@ -4,7 +4,7 @@ title:  "Provable Stateful Next Generation Access Control for Complex Dynamic Sy
 date:   2021-05-01 22:21:59 +00:00
 image: /images/ngac.png
 categories: research
-author: "Alperen Tercan"
+author: "<strong>Alperen Tercan</strong>, Vinayak Prabhu"
 venue: "In Preparation"
 link: /pdfs/ngac.pdf
 code: https://github.com/alperentercan/alloy4ngac
