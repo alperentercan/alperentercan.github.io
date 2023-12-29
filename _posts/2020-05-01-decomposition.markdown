@@ -6,7 +6,7 @@ image: /images/task_decomp_logo.png
 categories: research
 author: "Alperen Tercan"
 authors: "Alperen Tercan et al."
-venue: "Under review"
+venue: "AAAI2024 Workshop on AI for Education"
 link: /pdfs/682_synthesizing_a_progression_of_.pdf
 ---
 
